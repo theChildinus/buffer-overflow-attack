@@ -1,5 +1,19 @@
 # Buffer Overflow Vulnerability
 
+> by kong
+
+## 添加文件
+
+- `makefile` 编译
+- `run.sh` 执行编译，禁用内核地址随机分配，并发送stackdump文件到宿主机
+
+## 运行
+
+- `./run.sh`
+- `./stack`
+
+> origin by npapernot
+
 This is a short tutorial on running a simple buffer overflow on a virtual machine
 running Ubuntu. It shows how one can use a buffer overflow to obtain a root 
 shell. The end of the tutorial also demonstrates how two defenses in the Ubuntu
@@ -169,9 +183,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-
-
-
-
-
